@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "customerName": "John Doe",
+    "rating": 5,
+    "comment": "Pelayanan luar biasa dan sopirnya sangat ramah!",
+    "date": "2025-04-20"
+  },
+  {
+    "id": "2",
+    "customerName": "Lisa Marbun",
+    "rating": 3,
+    "comment": "AC-nya tidak menyala, tapi tetap datang tepat waktu.",
+    "date": "2025-04-18"
+  },
+  {
+    "id": "3",
+    "customerName": "Ahmad Fajar",
+    "rating": 4,
+    "comment": "Busnya bersih dan nyaman.",
+    "date": "2025-04-15"
+  },
+  {
+    "id": "4",
+    "customerName": "Nina Kartika",
+    "rating": 2,
+    "comment": "Sopir datang terlambat dan susah dihubungi.",
+    "date": "2025-04-10"
+  },
+  {
+    "id": "5",
+    "customerName": "Budi Santoso",
+    "rating": 4,
+    "comment": "Pengalaman cukup baik, kemungkinan akan pesan lagi.",
+    "date": "2025-04-12"
+  },
+  {
+    "id": "6",
+    "customerName": "Siti Aminah",
+    "rating": 5,
+    "comment": "Semua berjalan lancar, sangat profesional.",
+    "date": "2025-04-08"
+  },
+  {
+    "id": "7",
+    "customerName": "Andi Wijaya",
+    "rating": 1,
+    "comment": "Pelayanan sangat mengecewakan. Tidak direkomendasikan.",
+    "date": "2025-04-05"
+  },
+  {
+    "id": "8",
+    "customerName": "Dewi Lestari",
+    "rating": 5,
+    "comment": "Pengalaman pemesanan terbaik. Terima kasih!",
+    "date": "2025-04-03"
+  },
+  {
+    "id": "9",
+    "customerName": "Rizky Hidayat",
+    "rating": 3,
+    "comment": "Biasa saja. Tidak terlalu bagus, tapi juga tidak buruk.",
+    "date": "2025-03-29"
+  },
+  {
+    "id": "10",
+    "customerName": "Melati Wulandari",
+    "rating": 4,
+    "comment": "Puas dengan pelayanan dan harganya.",
+    "date": "2025-03-25"
+  }
+]

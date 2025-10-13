@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "judul": "Keuntungan Menyewa Bus Pariwisata",
+    "konten": "Menyewa bus pariwisata memberikan kenyamanan dan efisiensi biaya bagi rombongan. Dibandingkan menggunakan beberapa mobil pribadi, bus mampu menampung banyak orang sekaligus, serta dilengkapi fasilitas seperti AC, reclining seat, dan hiburan.",
+    "penulis": "Admin",
+    "status": "Published",
+    "tanggal": "2025-05-15"
+  },
+  {
+    "id": 2,
+    "judul": "Tips Memilih Bus Sewa yang Aman dan Nyaman",
+    "konten": "Pastikan armada bus memiliki surat lengkap dan rutin dicek secara teknis. Pilih perusahaan yang menyediakan supir berpengalaman, serta review positif dari pelanggan sebelumnya.",
+    "penulis": "Tim Editorial",
+    "status": "Draft",
+    "tanggal": "2025-05-16"
+  },
+  {
+    "id": 3,
+    "judul": "Proses Pemesanan Bus Sewa Secara Online",
+    "konten": "Dengan sistem digital, calon penyewa dapat memilih armada, mengatur tanggal keberangkatan, dan melakukan pembayaran secara online tanpa harus datang langsung ke kantor penyedia jasa.",
+    "penulis": "Kontributor",
+    "status": "Published",
+    "tanggal": "2025-05-17"
+  }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "id": "01",
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "subject": "Bus Rental Inquiry",
+        "message": "I would like to rent a bus for a trip from Jakarta to Bandung for 40 people. Can you provide more details?",
+        "status": "Pending",
+        "date": "2025-04-20"
+    },
+    {
+        "id": "02",
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "subject": "Bus Rental Availability",
+        "message": "Do you have buses available for a school trip from Surabaya to Malang on May 5th?",
+        "status": "Responded",
+        "date": "2025-04-18"
+    },
+    {
+        "id": "03",
+        "name": "Ali Fadil",
+        "email": "alifadil@example.com",
+        "subject": "Emergency Bus Rental",
+        "message": "I need a bus urgently to transport 50 people from Medan to Parapat. Please let me know if you can arrange this.",
+        "status": "Pending",
+        "date": "2025-04-17"
+    },
+    {
+        "id": "04",
+        "name": "Michael Johnson",
+        "email": "michaelj@example.com",
+        "subject": "Bus Rental for Corporate Event",
+        "message": "We need a bus to transport employees for a corporate event next month in Bali. Please provide a quote.",
+        "status": "Responded",
+        "date": "2025-04-16"
+    },
+    {
+        "id": "05",
+        "name": "Emily White",
+        "email": "emilywhite@example.com",
+        "subject": "Wedding Bus Rental",
+        "message": "Looking to rent a bus for a wedding from Jakarta to Bogor for 80 guests.",
+        "status": "Pending",
+        "date": "2025-04-15"
+    },
+    {
+        "id": "06",
+        "name": "Samuel Adams",
+        "email": "samuel.adams@example.com",
+        "subject": "Luxury Bus Rental Inquiry",
+        "message": "I'm looking for a luxury bus for a VIP group from Surabaya to Yogyakarta. Can you provide details on pricing and availability?",
+        "status": "Responded",
+        "date": "2025-04-14"
+    },
+    {
+        "id": "07",
+        "name": "Sarah Green",
+        "email": "sarah.green@example.com",
+        "subject": "Family Trip Bus Rental",
+        "message": "I would like to rent a bus for a family trip from Jakarta to Puncak. Please confirm availability for the 10th of May.",
+        "status": "Pending",
+        "date": "2025-04-13"
+    },
+    {
+        "id": "08",
+        "name": "David Lee",
+        "email": "davidlee@example.com",
+        "subject": "Event Bus Rental",
+        "message": "Need a bus for a concert event from Semarang to Solo for 100 people. Can you provide more information on the bus types?",
+        "status": "Responded",
+        "date": "2025-04-12"
+    },
+    {
+        "id": "09",
+        "name": "Sophia Williams",
+        "email": "sophia.williams@example.com",
+        "subject": "Tour Bus Rental",
+        "message": "We would like to rent a tour bus for a group of 50 for a trip around Bali. Let me know the options available.",
+        "status": "Pending",
+        "date": "2025-04-11"
+    },
+    {
+        "id": "10",
+        "name": "James Brown",
+        "email": "jamesbrown@example.com",
+        "subject": "Bus for Family Vacation",
+        "message": "I need a bus to transport my family from Medan to Aceh. Could you send details on availability for the 18th of April?",
+        "status": "Responded",
+        "date": "2025-04-10"
+    },
+    {
+        "id": "11",
+        "name": "Olivia Harris",
+        "email": "olivia.harris@example.com",
+        "subject": "Wedding Transport Bus",
+        "message": "Looking for a bus to transport guests from Jakarta to Bogor for a wedding on the 22nd of April. Please confirm.",
+        "status": "Pending",
+        "date": "2025-04-09"
+    },
+    {
+        "id": "12",
+        "name": "Lucas Thompson",
+        "email": "lucas.thompson@example.com",
+        "subject": "Corporate Event Bus",
+        "message": "We need to rent a bus for a corporate conference in Bali next month. Could you send me more information?",
+        "status": "Responded",
+        "date": "2025-04-08"
+    },
+    {
+        "id": "13",
+        "name": "Amelia Martinez",
+        "email": "amelia.martinez@example.com",
+        "subject": "Group Bus Rental",
+        "message": "I am looking for a bus for a group of 40 people for a trip to Bandung. Let me know your available options.",
+        "status": "Pending",
+        "date": "2025-04-07"
+    },
+    {
+        "id": "14",
+        "name": "Daniel Jackson",
+        "email": "daniel.jackson@example.com",
+        "subject": "Special Event Bus",
+        "message": "We are planning a special event next month and need a bus for 60 people from Surabaya to Malang. Please provide details.",
+        "status": "Responded",
+        "date": "2025-04-06"
+    },
+    {
+        "id": "15",
+        "name": "Lily Scott",
+        "email": "lilyscott@example.com",
+        "subject": "School Bus Rental",
+        "message": "Looking to rent a bus for a school trip from Jakarta to Yogyakarta for 30 students. Can you confirm availability?",
+        "status": "Pending",
+        "date": "2025-04-05"
+    },
+    {
+        "id": "16",
+        "name": "Ethan Hall",
+        "email": "ethanhall@example.com",
+        "subject": "Family Tour Bus Rental",
+        "message": "I need to rent a bus for a family tour in Bali for 15 people. Please provide your available buses and pricing.",
+        "status": "Responded",
+        "date": "2025-04-04"
+    },
+    {
+        "id": "17",
+        "name": "Grace Allen",
+        "email": "grace.allen@example.com",
+        "subject": "Wedding Bus Rental",
+        "message": "I'm interested in renting a bus for our wedding guests from Bandung to Jakarta. Please confirm if you have availability.",
+        "status": "Pending",
+        "date": "2025-04-03"
+    },
+    {
+        "id": "18",
+        "name": "Henry King",
+        "email": "henryking@example.com",
+        "subject": "Luxury Bus Rental for VIPs",
+        "message": "I need a luxury bus for a VIP group of 20 people from Jakarta to Bali. Let me know the available options and pricing.",
+        "status": "Responded",
+        "date": "2025-04-02"
+    },
+    {
+        "id": "19",
+        "name": "Chloe Wright",
+        "email": "chloewright@example.com",
+        "subject": "Event Bus Rental",
+        "message": "Looking to rent a bus for a big event from Surabaya to Malang. Can you send a quote for a bus for 70 people?",
+        "status": "Pending",
+        "date": "2025-04-01"
+    },
+    {
+        "id": "20",
+        "name": "Benjamin Young",
+        "email": "benjamin.young@example.com",
+        "subject": "Tourist Bus Rental",
+        "message": "I need to rent a bus for a tourist group of 50 people from Jakarta to Yogyakarta. Can you send the available packages?",
+        "status": "Responded",
+        "date": "2025-03-30"
+    }
+]

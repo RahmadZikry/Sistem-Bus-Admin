@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Bagaimana cara memesan bus?",
+    "jawaban": "Silakan kunjungi halaman pemesanan dan isi data perjalanan Anda.",
+    "status": "Published",
+    "tanggal": "2024-11-01"
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Bisakah saya membatalkan pesanan?",
+    "jawaban": "Ya, pembatalan dapat dilakukan maksimal 24 jam sebelum keberangkatan.",
+    "status": "Draft",
+    "tanggal": "2024-11-02"
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Apa saja metode pembayaran yang tersedia?",
+    "jawaban": "Kami menerima transfer bank, kartu kredit, dan e-wallet.",
+    "status": "Published",
+    "tanggal": "2024-11-03"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nama": "Budi Neville",
+    "jabatan": "Sopir",
+    "foto": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "nama": "Wahyudi Irwin",
+    "jabatan": "Kondektur",
+    "foto": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 3,
+    "nama": "Cahyono Scholes",
+    "jabatan": "Teknisi Bus",
+    "foto": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "nama": "Andy Cole Butarbutar",
+    "jabatan": "Sopir",
+    "foto": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "id": 5,
+    "nama": "Teuku Nistelrooy",
+    "jabatan": "Kondektur",
+    "foto": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 6,
+    "nama": "Muhammad Vidic",
+    "jabatan": "Teknisi Bus",
+    "foto": "https://randomuser.me/api/portraits/men/10.jpg"
+  }
+]

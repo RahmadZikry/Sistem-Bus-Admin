@@ -1,0 +1,423 @@
+[
+    {
+      "id_layanan": 1,
+      "tipe_bus": "Executive Bus",
+      "rute_perjalanan": "Pekanbaru - Dumai",
+      "kapasitas_tempat_duduk": 45,
+      "operator_bus": "Fajar Transport",
+      "jadwal": {
+        "waktu_berangkat": "08:00 AM",
+        "waktu_tiba": "12:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 150000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus1.jpg"
+    },
+    {
+      "id_layanan": 2,
+      "tipe_bus": "Business",
+      "rute_perjalanan": "Jakarta - Bandung",
+      "kapasitas_tempat_duduk": 30,
+      "operator_bus": "Sinar Jaya",
+      "jadwal": {
+        "waktu_berangkat": "07:00 AM",
+        "waktu_tiba": "10:00 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 250000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus2.jpg"
+    },
+    {
+      "id_layanan": 3,
+      "tipe_bus": "Executive",
+      "rute_perjalanan": "Surabaya - Malang",
+      "kapasitas_tempat_duduk": 40,
+      "operator_bus": "Pahala Kencana",
+      "jadwal": {
+        "waktu_berangkat": "09:00 AM",
+        "waktu_tiba": "11:30 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 120000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus3.jpg"
+    },
+    {
+      "id_layanan": 4,
+      "tipe_bus": "Economy",
+      "rute_perjalanan": "Medan - Pematangsiantar",
+      "kapasitas_tempat_duduk": 50,
+      "operator_bus": "Kurnia",
+      "jadwal": {
+        "waktu_berangkat": "10:00 AM",
+        "waktu_tiba": "01:00 PM"
+      },
+      "fasilitas": {
+        "wifi": false,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 80000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus4.jpg"
+    },
+    {
+      "id_layanan": 5,
+      "tipe_bus": "Sleeper",
+      "rute_perjalanan": "Yogyakarta - Bali",
+      "kapasitas_tempat_duduk": 25,
+      "operator_bus": "Rosalia Indah",
+      "jadwal": {
+        "waktu_berangkat": "08:00 PM",
+        "waktu_tiba": "06:00 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 300000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus5.jpg"
+    },
+    {
+      "id_layanan": 6,
+      "tipe_bus": "Business",
+      "rute_perjalanan": "Semarang - Solo",
+      "kapasitas_tempat_duduk": 28,
+      "operator_bus": "Safari Dharma Raya",
+      "jadwal": {
+        "waktu_berangkat": "01:00 PM",
+        "waktu_tiba": "03:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 180000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus6.jpg"
+    },
+    {
+      "id_layanan": 7,
+      "tipe_bus": "Executive",
+      "rute_perjalanan": "Palembang - Lampung",
+      "kapasitas_tempat_duduk": 45,
+      "operator_bus": "Handoyo",
+      "jadwal": {
+        "waktu_berangkat": "06:00 AM",
+        "waktu_tiba": "12:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 150000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus7.jpg"
+    },
+    {
+      "id_layanan": 8,
+      "tipe_bus": "Economy",
+      "rute_perjalanan": "Makassar - Parepare",
+      "kapasitas_tempat_duduk": 55,
+      "operator_bus": "Lorena",
+      "jadwal": {
+        "waktu_berangkat": "07:30 AM",
+        "waktu_tiba": "10:30 AM"
+      },
+      "fasilitas": {
+        "wifi": false,
+        "ac": false,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 60000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus8.jpg"
+    },
+    {
+      "id_layanan": 9,
+      "tipe_bus": "Sleeper",
+      "rute_perjalanan": "Bandung - Surabaya",
+      "kapasitas_tempat_duduk": 20,
+      "operator_bus": "Primajasa",
+      "jadwal": {
+        "waktu_berangkat": "09:00 PM",
+        "waktu_tiba": "05:00 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 350000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus9.jpg"
+    },
+    {
+      "id_layanan": 10,
+      "tipe_bus": "Business",
+      "rute_perjalanan": "Denpasar - Mataram",
+      "kapasitas_tempat_duduk": 25,
+      "operator_bus": "DAMRI",
+      "jadwal": {
+        "waktu_berangkat": "08:00 AM",
+        "waktu_tiba": "02:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 280000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus10.jpg"
+    },
+    {
+      "id_layanan": 11,
+      "tipe_bus": "Executive",
+      "rute_perjalanan": "Padang - Bukittinggi",
+      "kapasitas_tempat_duduk": 35,
+      "operator_bus": "ANS",
+      "jadwal": {
+        "waktu_berangkat": "10:00 AM",
+        "waktu_tiba": "12:30 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 90000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus11.jpg"
+    },
+    {
+      "id_layanan": 12,
+      "tipe_bus": "Economy",
+      "rute_perjalanan": "Manado - Gorontalo",
+      "kapasitas_tempat_duduk": 50,
+      "operator_bus": "Bintang Timur",
+      "jadwal": {
+        "waktu_berangkat": "06:30 AM",
+        "waktu_tiba": "02:00 PM"
+      },
+      "fasilitas": {
+        "wifi": false,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 120000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus12.jpg"
+    },
+    {
+      "id_layanan": 13,
+      "tipe_bus": "Sleeper",
+      "rute_perjalanan": "Surabaya - Jakarta",
+      "kapasitas_tempat_duduk": 22,
+      "operator_bus": "Sumber Alam",
+      "jadwal": {
+        "waktu_berangkat": "08:30 PM",
+        "waktu_tiba": "06:00 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 400000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus13.jpg"
+    },
+    {
+      "id_layanan": 14,
+      "tipe_bus": "Business",
+      "rute_perjalanan": "Banjarmasin - Balikpapan",
+      "kapasitas_tempat_duduk": 30,
+      "operator_bus": "Borneo Trans",
+      "jadwal": {
+        "waktu_berangkat": "07:00 AM",
+        "waktu_tiba": "03:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 320000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus14.jpg"
+    },
+    {
+      "id_layanan": 15,
+      "tipe_bus": "Executive",
+      "rute_perjalanan": "Jambi - Bengkulu",
+      "kapasitas_tempat_duduk": 40,
+      "operator_bus": "Putra Rafflesia",
+      "jadwal": {
+        "waktu_berangkat": "08:00 AM",
+        "waktu_tiba": "03:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 180000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus15.jpg"
+    },
+    {
+      "id_layanan": 16,
+      "tipe_bus": "Economy",
+      "rute_perjalanan": "Pontianak - Singkawang",
+      "kapasitas_tempat_duduk": 55,
+      "operator_bus": "Karunia Jaya",
+      "jadwal": {
+        "waktu_berangkat": "09:00 AM",
+        "waktu_tiba": "11:30 AM"
+      },
+      "fasilitas": {
+        "wifi": false,
+        "ac": false,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 50000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus16.jpg"
+    },
+    {
+      "id_layanan": 17,
+      "tipe_bus": "Sleeper",
+      "rute_perjalanan": "Jakarta - Surakarta",
+      "kapasitas_tempat_duduk": 24,
+      "operator_bus": "Gunung Harta",
+      "jadwal": {
+        "waktu_berangkat": "10:00 PM",
+        "waktu_tiba": "05:00 AM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 280000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus17.jpg"
+    },
+    {
+      "id_layanan": 18,
+      "tipe_bus": "Business",
+      "rute_perjalanan": "Malang - Banyuwangi",
+      "kapasitas_tempat_duduk": 28,
+      "operator_bus": "Maju Lancar",
+      "jadwal": {
+        "waktu_berangkat": "07:30 AM",
+        "waktu_tiba": "02:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": true
+      },
+      "harga": {
+        "harga_tiket": 220000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus18.jpg"
+    },
+    {
+      "id_layanan": 19,
+      "tipe_bus": "Executive",
+      "rute_perjalanan": "Bandar Lampung - Jakarta",
+      "kapasitas_tempat_duduk": 45,
+      "operator_bus": "Eka",
+      "jadwal": {
+        "waktu_berangkat": "08:00 AM",
+        "waktu_tiba": "04:00 PM"
+      },
+      "fasilitas": {
+        "wifi": true,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 200000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus19.jpg"
+    },
+    {
+      "id_layanan": 20,
+      "tipe_bus": "Economy",
+      "rute_perjalanan": "Purwokerto - Yogyakarta",
+      "kapasitas_tempat_duduk": 50,
+      "operator_bus": "Safari Dharma",
+      "jadwal": {
+        "waktu_berangkat": "09:00 AM",
+        "waktu_tiba": "12:00 PM"
+      },
+      "fasilitas": {
+        "wifi": false,
+        "ac": true,
+        "toilet": false
+      },
+      "harga": {
+        "harga_tiket": 70000,
+        "mata_uang": "IDR"
+      },
+      "url_gambar": "./img/bus20.jpg"
+    }
+  ]
+  
