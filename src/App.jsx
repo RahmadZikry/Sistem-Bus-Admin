@@ -33,6 +33,7 @@ const Testimoni = React.lazy(() => import("./pages/Testimoni"));
 const TestimoniDetail = React.lazy(() => import("./pages/TestimoniDetail"));
 const Job = React.lazy(() => import("./pages/Job"));
 const JobDetail = React.lazy(() => import("./pages/JobDetail"));
+const EditArtikel = React.lazy(() => import ("./pages/EditArtikel"));
 
 const Login = React.lazy(() => import("./pages/auth/Login"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
@@ -87,6 +88,7 @@ function App() {
 
             <Route path="/artikel" element={<Artikel />} />
             <Route path="/articles/:id" element={<ArticleDetail />} />
+            <Route path="/articles/edit/:id" element={<EditArtikel />} />
           </Route>
         </Route>
 
