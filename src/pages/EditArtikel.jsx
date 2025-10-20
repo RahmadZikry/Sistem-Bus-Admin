@@ -17,18 +17,23 @@ export default function EditArtikel() {
     });
     const [isLoading, setIsLoading] = useState(true);
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [articleExists, setArticleExists] = useState(true);
 
     // Load article data
     useEffect(() => {
-        const article = artikelData.find(item => item.id === parseInt(id));
+        const articleId = parseInt(id);
+        const article = artikelData.find(item => item.id === articleId);
+        
         if (article) {
             setFormData({
-                judul: article.judul,
-                konten: article.konten,
-                penulis: article.penulis,
-                status: article.status,
+                judul: article.judul || '',
+                konten: article.konten || '',
+                penulis: article.penulis || '',
+                status: article.status || 'Draft',
                 gambar: article.gambar || ''
             });
+        } else {
+            setArticleExists(false);
         }
         setIsLoading(false);
     }, [id]);
@@ -43,6 +48,13 @@ export default function EditArtikel() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        
+        // Validasi form
+        if (!formData.judul.trim() || !formData.konten.trim() || !formData.penulis.trim()) {
+            alert('Please fill in all required fields (Title, Content, and Author).');
+            return;
+        }
+
         setIsSubmitting(true);
 
         try {
@@ -50,7 +62,7 @@ export default function EditArtikel() {
             await new Promise(resolve => setTimeout(resolve, 1000));
             
             // In real app, you would update the data via API
-            console.log('Updating article:', { id, ...formData });
+            console.log('Updating article:', { id: parseInt(id), ...formData });
             
             // Show success message and redirect
             alert('Article updated successfully!');
@@ -73,6 +85,41 @@ export default function EditArtikel() {
         return (
             <div className="min-h-screen flex items-center justify-center">
                 <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
+            </div>
+        );
+    }
+
+    if (!articleExists) {
+        return (
+            <div className="space-y-6">
+                <PageHeader 
+                    title="Article Not Found" 
+                    breadcrumb={["Dashboard", "Articles", "Edit Article"]}
+                >
+                    <div className="flex items-center gap-3">
+                        <Link 
+                            to="/artikel"
+                            className="flex items-center gap-2 bg-gray-500 hover:bg-gray-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors"
+                        >
+                            <FiArrowLeft size={18}/>
+                            <span>Back to Articles</span>
+                        </Link>
+                    </div>
+                </PageHeader>
+                
+                <div className="max-w-4xl mx-auto">
+                    <div className="bg-white rounded-lg shadow-sm p-6 text-center">
+                        <h2 className="text-2xl font-bold text-gray-800 mb-4">Article Not Found</h2>
+                        <p className="text-gray-600 mb-6">The article you're trying to edit doesn't exist.</p>
+                        <Link 
+                            to="/artikel"
+                            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+                        >
+                            <FiArrowLeft size={18}/>
+                            <span>Back to Articles</span>
+                        </Link>
+                    </div>
+                </div>
             </div>
         );
     }
